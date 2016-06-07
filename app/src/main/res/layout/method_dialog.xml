@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radio_group"
+        android:padding="10dp"
+
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shia Ithna-Ashari"
+            android:id="@+id/radio_0"
+            android:padding="10dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_1"
+            android:checked="true"
+            android:text="University of Islamic Sciences, Karachi"
+            android:padding="10dp"
+
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/radio_2"
+            android:text="Islamic Society of North America (ISNA)"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Muslim World League (MWL)"
+            android:padding="10dp"
+            android:id="@+id/radio_3"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+
+            android:id="@+id/radio_4"
+            android:text="Umm al-Qura, Makkah"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egyptian General Authority of Survey"
+            android:padding="10dp"
+            android:id="@+id/radio_5"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Institute of Geophysics, University of Tehran"
+            android:padding="10dp"
+            android:id="@+id/radio_6"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:text="OK"
+        android:id="@+id/dismiss_dialog"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

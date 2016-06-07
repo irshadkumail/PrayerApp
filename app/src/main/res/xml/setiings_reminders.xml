@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:title="Fajr"
+        android:summary="Sets Alarms to remind you of Salah"
+        android:id="@+id/pref_salah_fajr"
+        ></SwitchPreference>
+
+    <SwitchPreference
+        android:title="Zuhr"
+        android:summary="Sets Alarms to remind you of Salah"
+        android:id="@+id/pref_salah_zuhr"
+        ></SwitchPreference>
+
+    <SwitchPreference
+        android:title="Asar"
+        android:summary="Sets Alarms to remind you of Salah"
+        android:id="@+id/pref_salah_asar"
+        ></SwitchPreference>
+
+    <SwitchPreference
+        android:title="Maghrib"
+        android:summary="Sets Alarms to remind you of Salah"
+        android:id="@+id/pref_salah_maghrib"
+        ></SwitchPreference>
+
+    <SwitchPreference
+        android:title="Isha"
+        android:summary="Sets Alarms to remind you of Salah"
+        android:id="@+id/pref_salah_isha"
+
+        ></SwitchPreference>
+
+    <SwitchPreference
+        android:title="Tahajjud"
+        android:summary="Sets Alarms to remind you of Salah"
+        android:id="@+id/pref_salah_tahajjud"
+        ></SwitchPreference>
+
+    <SwitchPreference
+        android:title=""
+        android:summary="Sets Alarms to remind you of Salah"
+        android:id="@+id/pref_salah_"
+        ></SwitchPreference>
+</PreferenceScreen>

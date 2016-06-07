@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <Preference
+        android:title="Salah Reminders"
+        android:summary="Sets Alarms to remind you of Salah"
+        android:id="@+id/pref_salah_reminder"
+
+        android:key="pref_salah_reminder"
+        ></Preference>
+
+
+    <SwitchPreference
+        android:title="Salah Notifications"
+        android:summary="Sends you a notification before every Salah"
+        android:id="@+id/pref_salah_notification"
+        ></SwitchPreference>
+</PreferenceScreen>
